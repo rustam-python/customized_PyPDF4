@@ -11,7 +11,7 @@ from os.path import abspath, dirname, join
 import sys
 
 from PIL import Image
-from pypdf import PdfFileReader
+from PyPDF4 import PdfFileReader
 
 PROJECT_ROOT = abspath(join(dirname(__file__), os.pardir))
 sys.path.append(PROJECT_ROOT)

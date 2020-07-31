@@ -38,8 +38,8 @@ PROJECT_ROOT = abspath(
 )
 sys.path.append(PROJECT_ROOT)
 
-from pypdf import PdfFileReader, PdfFileMerger
-from pypdf.pagerange import PAGE_RANGE_HELP, parseFilenamePageRanges
+from PyPDF4 import PdfFileReader, PdfFileMerger
+from PyPDF4.pagerange import PAGE_RANGE_HELP, parseFilenamePageRanges
 
 
 def parseArgs():

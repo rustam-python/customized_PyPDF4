@@ -10,7 +10,7 @@ import argparse
 from os.path import abspath, dirname, join, pardir
 from sys import exit, path, stderr
 
-from pypdf.filters import *
+from PyPDF4.filters import *
 
 PROJECT_ROOT = abspath(join(dirname(__file__), pardir))
 path.append(PROJECT_ROOT)

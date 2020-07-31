@@ -4,7 +4,7 @@ import os
 from os.path import abspath, dirname, join
 import sys
 
-from pypdf import PdfFileReader, PdfFileWriter
+from PyPDF4 import PdfFileReader, PdfFileWriter
 
 PROJECT_ROOT = abspath(join(dirname(__file__), os.pardir, os.pardir))
 sys.path.append(PROJECT_ROOT)
